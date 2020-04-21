@@ -2,9 +2,6 @@
 node_modules
 /dist
 
-# 自分の環境のみに必要なファイル
-gulpfile.js
-
 # local env files
 .env.local
 .env.*.local
