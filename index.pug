@@ -1,0 +1,46 @@
+doctype html
+html(lang="ja")
+
+head
+  meta(charset="utf-8")
+  title about_user_login
+  link(rel="stylesheet",href="./about_user_login/sass/about_user_login.css")
+
+body
+  h1 ポートフォリオ一覧（yuyu456-corder）
+  p GitHubで管理しているプロジェクトの概要やリポジトリへのリンクをまとめています。
+  a(href="https://github.com/yuyu456-corder",target="_blank") GitHubアカウントのホームへ
+  h2 user_login
+  a(href="./about_user_login/pug/about_user_login.html",target="_blank") user_login詳細へ
+  br
+  a(href="https://github.com/yuyu456-corder/user_login",target="_blank") GitHubリポジトリへ
+  br
+  p ログイン機能を外部のAPIを使わず、フレームワークやライブラリを用いて作成するプロジェクトです。
+  | DB連携やサーバとのデータ通信、セキュリティ面等学ぶことが豊富でいい題材になっています。
+  br
+  | 現在もブラッシュアップを続けているメインのプロジェクトです。
+  h3 開発環境
+  p JavaScript(Vue.js+Express.js),SQLite,Sequelize
+  h2 beatmania_data_analyzer
+  a(href="https://github.com/yuyu456-corder/beatmania_data_analyzer",target="_blank") GitHubリポジトリへ
+  br
+  p KONAMI社の音楽アーケードゲーム”beatmaniaIIDX”のプレーデータを分析するプロジェクトです。
+  |公式でスコアデータ（プレイヤーの成績）をCSVファイルでエクスポートできる為、
+  |これを生かせるWebサービスが出来ないかと考え作成したプロジェクトです。
+  p CSVのほとんどのデータが数値の為、統計と相性がいいと思いPythonで開発中です。
+  |このプロジェクトを通してデータの可視化とDBの管理を学ぶことを目標にしています。
+  h3 開発環境
+  p Python3,Pipenv
+  h2 my_knowledge_notes
+  a(href="https://github.com/yuyu456-corder/my_knowledge_notes",target="_blank") GitHubリポジトリへ
+  br
+  p 今まで学んだきた知識を言語化して、さらに理解を深めるためのプロジェクトです。
+  p 参考サイトや文献の文章やソースコードの丸写しではなく拙くても自分の言葉で書くことを意識して作成しています。
+
+  h3 使用言語
+  p MarkDown
+  h2 yuyu456-corder_github.io
+  p このサイト自身です。この静的サイトを作成することでフロントエンド側の知識を深めていきたいです。
+  |gulpによるpug,sassの自動コンパイル等の開発の効率化を行っています。
+  h3 開発環境
+  p pug,sass,gulp4
