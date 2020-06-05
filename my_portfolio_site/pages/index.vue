@@ -35,7 +35,7 @@
             v-btn(text color="blue" outlined coler="blue" href="https://github.com/yuyu456-corder/beatmania_data_analyzer") GitHub Repository
               v-icon mdi-github
           v-card-text 公式のサービスで自分のプレイヤーデータが CSV 形式で提供されるため、これを上手くつかって自分のプレイデータを分析・可視化する
-          v-card-text 開発環境：VSCode/ Git/ Python3/ Pipenv
+          v-card-text 開発環境：VSCode/ Git/ Python3(Pipenv)
 
         v-card(class="ma-2")
           v-card-title my_knowledge_notes
