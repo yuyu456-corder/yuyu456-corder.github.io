@@ -25,6 +25,8 @@
           v-card-action
             v-btn(text color="blue" outlined coler="blue" href="https://github.com/yuyu456-corder/english_notebook_for_engineer") GitHub Repository
               v-icon mdi-github
+            v-btn(text color="green" outlined coler="green" to="/aboutRepositories/aboutEnglishNotes" nuxt) Explained Project
+              v-icon mdi-pencil
           v-card-text 自分がライブラリやフレームワークの公式リファレンスを読む時に英語力の無さを痛感したため建てたプロジェクト
           v-card-text 開発環境：Visual Studio/ Git/ C
       
