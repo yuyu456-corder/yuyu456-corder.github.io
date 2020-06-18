@@ -29,8 +29,23 @@ v-app
     h2(style="border: 1px solid black; box-shadow: 30px -8px #4169E1 ") ＞システム構成について
 
     v-contaniner(class="ma-2")
-    img(src="/activityDiagram.png",alt="アクティビティUML図",width="30%")
-    p 左図に示したアクティビティ図のように本システムは動作します。
+      v-row
+        v-col(cols="6")
+          figure 
+            img(src="/activityDiagram.png",alt="アクティビティ図")
+            figcaption english_notebook_for_engineerのアクティビティ図
+
+        v-col(cols="6")
+          p 左図に示したアクティビティ図のように本システムは動作します。
+          p バッチファイル起動時に文字コードの指定を行い、同時にexeファイルの実行を行います。
+          p JSONファイルには英単語とその日本語訳がKeyとValueにそれぞれ記述されています。
+          p パースする際はKeyとValueの値を配列に格納していくことで各モードで問題として扱うことが出来ます。
+
+          p 各モードの説明
+            li 英単語帳モード
+              p 英単語とその解答を交互に出力していくモードです
+            li 解答モード
+              p 4択形式で日本語訳を答えていくモードです
 
   h2(style="border: 1px solid black; box-shadow: 30px -8px #4169E1 ") ＞開発時に自分が苦労した点
 
