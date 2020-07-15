@@ -30,12 +30,12 @@ v-app
 
     v-contaniner(class="ma-2")
       v-row
-        v-col(cols="6")
+        v-col(cols="auto" sm="auto" md="auto" lg="auto")
           figure 
             img(src="/activityDiagram.png",alt="アクティビティ図")
             figcaption english_notebook_for_engineerのアクティビティ図
 
-        v-col(cols="6")
+        v-col(cols="12" sm="12" md="6" lg="6" xl="6")
           p 左図に示したアクティビティ図のように本システムは動作します。
           p バッチファイル起動時に文字コードの指定を行い、同時にexeファイルの実行を行います。
           p JSONファイルには英単語とその日本語訳がKeyとValueにそれぞれ記述されています。
